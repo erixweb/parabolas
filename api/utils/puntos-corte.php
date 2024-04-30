@@ -16,7 +16,8 @@ function puntosCorte()
     
     if (!hasSolution($resultAdd)) {
         echo "\(PuntoDeCorte_x = \\frac{-$b ± √$b^2 - 4 · $a · $c}{2 · $a} = NoSolucióReal\)";
-        return;
+
+        die("<p><strong>Este problema no tiene solución real</strong></p>");
     }
     echo "\(PuntoDeCorte_x = \\frac{-$b ± √$b^2 - 4 · $a · $c}{2 · $a} = (+) $resultAdd || (-) $resultSubtract\)";
 }
