@@ -8,7 +8,7 @@ require_once "./utils/all.php"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parábolas</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" defer ></script>
 </head>
