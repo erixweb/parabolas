@@ -1,6 +1,6 @@
 <?php
 
-require_once "./utils/is-happy.php";
-require_once "./utils/pezon.php";
-require_once "./utils/puntos-corte.php";
-require_once "./utils/extra.php";
+require_once "is-happy.php";
+require_once "pezon.php";
+require_once "puntos-corte.php";
+require_once "extra.php";

@@ -1,5 +1,5 @@
 <?php
-require_once "./utils/all.php"
+require_once "utils/all.php"
 ?>
 <!DOCTYPE html> 
 <html>
