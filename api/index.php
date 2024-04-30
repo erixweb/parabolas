@@ -16,10 +16,10 @@ require_once "utils/all.php"
 <body>
     <main>
         <form action="" method="get">
-            <input type="text" placeholder="a" name="a">
-            <input type="text" placeholder="b" name="b">
-            <input type="text" placeholder="c" name="c">
-            <input type="submit">
+            <input type="number" placeholder="a" name="a">
+            <input type="number" placeholder="b" name="b">
+            <input type="number" placeholder="c" name="c">
+            <input type="submit" value="Calcular">
         </form>
 
         <p>
@@ -29,9 +29,9 @@ require_once "utils/all.php"
         </p>
         <?php
         if (isset($_GET["a"]) && isset($_GET["b"]) && isset($_GET["c"])) {
-            $a = (float) $_GET["a"];
-            $b = (float) $_GET["b"];
-            $c = (float) $_GET["c"];
+            $a = (float) $_GET["a"] || 0;
+            $b = (float) $_GET["b"] || 0;
+            $c = (float) $_GET["c"] || 0;
 
             echo "<h2>1. Feliz/Triste</h2>";
 
