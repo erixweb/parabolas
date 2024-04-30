@@ -33,17 +33,19 @@ require_once "./utils/all.php"
             $b = (float) $_GET["b"];
             $c = (float) $_GET["c"];
 
-            echo "<h2>---- Feliz/Triste ----</h2>";
+            echo "<h2>1. Feliz/Triste</h2>";
 
-            echo "<p>" . match (true) {
+            echo "<p><strong>" . match (true) {
                 isHappy($a) => "Feliz\n",
                 !isHappy($a) => "Triste\n"
-            } . "<p>";
+            } . "</strong><p>";
 
 
             pezón();
 
             puntosCorte();
+
+            extraPoints();
         }
         ?>
     </main>

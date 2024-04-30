@@ -5,7 +5,7 @@ function pezón()
     global $b;
     global $c;
 
-    echo "<h2>---- Pezón ----</h2>";
+    echo "<h2>2. Pezón</h2>";
     $operationX = (-($b)) / (2 * $a);
     echo "<p>\(x = \\frac{-b}{2*a} = \\frac{-($b)}{2 * $a} = $operationX\)</p>";
     $operationY = ($a * $operationX ** 2) + ($b * $operationX) + $c;
