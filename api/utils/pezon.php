@@ -1,9 +1,6 @@
 <?php
-function pezón()
+function pezón($a, $b, $c)
 {
-    global $a;
-    global $b;
-    global $c;
 
     echo "<h2>2. Pezón</h2>";
     try {
